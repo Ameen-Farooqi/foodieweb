@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Footer.module.css'
 
-import RamenDiningIcon from '@mui/icons-material/RamenDining'
+import logo from "../../assets/logo.png"
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
@@ -19,8 +19,8 @@ export default function Footer() {
       <div className={styles.inner}>
         <div className={styles.brandCol}>
           <div className={styles.brand}>
-            <RamenDiningIcon className={styles.brandIcon} aria-hidden />
-            <span className={styles.brandName}>Bistro Bliss</span>
+            <img src={logo} className={styles.brandIcon} aria-hidden />
+            <span className={styles.brandName}>Modern DABA</span>
           </div>
 
           <p className={styles.brandDescription}>
@@ -91,7 +91,7 @@ export default function Footer() {
 
       <div className={styles.bottom}>
         <p className={styles.copyright}>
-          Copyright © 2023 Hashtag Developer. All Rights Reserved
+          Copyright © 2026 Hashtag Developer. All Rights Reserved
         </p>
       </div>
     </footer>
