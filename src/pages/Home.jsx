@@ -81,9 +81,7 @@ export default function Home() {
               <p className={styles.menuCardDescription}>
                 In the new era of technology we look in the future with certainty and pride for our life.
               </p>
-              <a href="#menu" className={styles.menuCardLink} onClick={() =>navigate('/menu')}>
-                Explore Menu
-              </a>
+              <Link to='/menu' className={styles.menuCardLink}>Explore Menu</Link>
             </div>
 
             <div className={styles.menuCard}>
@@ -94,9 +92,7 @@ export default function Home() {
               <p className={styles.menuCardDescription}>
                 In the new era of technology we look in the future with certainty and pride for our life.
               </p>
-              <a href="#menu" className={styles.menuCardLink} onClick={() => navigate('/menu')}>
-                Explore Menu
-              </a>
+              <Link to='/menu' className={styles.menuCardLink}>Explore Menu</Link>
             </div>
 
             <div className={styles.menuCard}>
@@ -107,9 +103,7 @@ export default function Home() {
               <p className={styles.menuCardDescription}>
                 In the new era of technology we look in the future with certainty and pride for our life.
               </p>
-              <a href="#menu" className={styles.menuCardLink} onClick={() => navigate('/menu')}>
-                Explore Menu
-              </a>
+              <Link to='/menu' className={styles.menuCardLink}>Explore Menu</Link>
             </div>
 
             <div className={styles.menuCard}>
@@ -120,9 +114,7 @@ export default function Home() {
               <p className={styles.menuCardDescription}>
                 In the new era of technology we look in the future with certainty and pride for our life.
               </p>
-              <a href="#menu" className={styles.menuCardLink} onClick={() => navigate('/menu')}>
-                Explore Menu
-              </a>
+              <Link to='/menu' className={styles.menuCardLink}>Explore Menu</Link>
             </div>
           </div>
         </section>
